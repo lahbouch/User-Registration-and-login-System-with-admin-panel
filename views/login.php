@@ -41,14 +41,14 @@
         <form action="" class="h-100 d-flex flex-column justify-content-center">
             <div class="d-flex flex-column justify-content-center gap-3">
                 <div>
-                    <label class="form-label" for="">Username</label>
-                    <input class="form-control" type="text" name="" id="">
+                    <label class="form-label" for="username">Username</label>
+                    <input class="form-control" type="text" name="username" id="username">
                 </div>
                 <div>
-                    <label class="form-label" for="">Password</label>
-                    <input class="form-control" type="password" name="" id="">
+                    <label class="form-label" for="password">Password</label>
+                    <input class="form-control" type="password" name="password" id="password">
                 </div>
-                <button class="btn btn-primary">Login in</button>
+                <button class="btn btn-primary" id="loginbtn">Login in</button>
             </div>
         </form>
     </div>
